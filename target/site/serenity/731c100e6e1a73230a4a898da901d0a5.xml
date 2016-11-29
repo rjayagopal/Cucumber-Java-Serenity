@@ -1,0 +1,41 @@
+<acceptance-test-run title="Login functionality for a social networking site-1.1." name="Login functionality for a social networking site-1.1." description="" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="18688" timestamp="2016-11-29T15:42:31.564Z">
+  <user-story id="login-functionality-for-a-social-networking-site-(scenario-1)" name="Login functionality for a social networking site (Scenario-1)" path="Login.feature"/>
+  <tags>
+    <tag name="Login functionality for a social networking site (Scenario-1)" type="feature"/>
+    <tag name="login" type="tag"/>
+    <tag name="LoginWithUI" type="tag"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>URL</header>
+      <header>userName</header>
+      <header>passWord</header>
+      <header>status</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>https://www.facebook.com/</value>
+        <value>Raghul.Jayagopal@gmail.com</value>
+        <value>Face@226333</value>
+        <value>Success</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {URL=https://www.facebook.com/, userName=Raghul.Jayagopal@gmail.com, passWord=Face@226333, status=Success}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="7968">
+      <description>Given I navigate to &quot;https://www.facebook.com/&quot;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="361">
+      <description>When I enter username as &quot;Raghul.Jayagopal@gmail.com&quot;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="219">
+      <description>And I enter password as &quot;Face@226333&quot;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="4930">
+      <description>Then login should be &quot;Success&quot;</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

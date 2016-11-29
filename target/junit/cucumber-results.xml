@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="60.450726">
+<testcase classname="Login functionality for a social networking site (Scenario-1)" name="Login functionality for a social networking site-1.1." time="19.238326">
+<system-out><![CDATA[Given I navigate to "https://www.facebook.com/".............................passed
+When I enter username as "Raghul.Jayagopal@gmail.com".......................passed
+And I enter password as "Face@226333".......................................passed
+Then login should be "Success"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login functionality for a social networking site (Scenario-2)" name="Login functionality for a social networking site-2.1." time="20.932258">
+<system-out><![CDATA[Given I navigate to "https://www.facebook.com/".............................passed
+When I enter username as "Raghul.Jayagopal@gmail.com".......................passed
+And I enter password as "Face@226333".......................................passed
+Then login should be "Success"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login functionality for a social networking site (Scenario-2)" name="Login functionality for a social networking site-2.2." time="20.280142">
+<system-out><![CDATA[Given I navigate to "https://www.facebook.com/".............................passed
+When I enter username as "Raghul.Jayagopal@gmail.com".......................passed
+And I enter password as "Face@226333".......................................passed
+Then login should be "Success"..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
